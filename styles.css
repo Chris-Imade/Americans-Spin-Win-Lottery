@@ -80,19 +80,7 @@ body {
   }
 }
 
-/* Everything modal here */
-.modal__overlay {
-  position: absolute;
-  background-color: rgba(0, 0, 0, 0.526);
-  width: 100vw;
-  height: 100%;
-  top: 0;
-  z-index: 4;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow-y: scroll;
-}
+
 .modal__overlay--share {
   position: absolute;
   background-color: rgba(0, 0, 0, 0.526);
@@ -126,28 +114,9 @@ body {
   justify-content: center;
   align-items: center;
 }
-.info__desc {
-  color: rgb(39, 38, 38);
-  font-size: large;
-}
-.info__heading {
-  color: rgb(40, 38, 38);
-  font-size: x-large;
-  margin-bottom: 24px;
-}
 .info__heading--share {
   color: rgb(40, 38, 38);
   font-size: x-large;
-}
-.modal__content {
-  max-width: 700px;
-  background-color: white;
-  padding: 40px;
-  border-radius: 30px;
-  animation-name: modalIntro;
-  animation-duration: 1000ms;
-  animation-iteration-count: 1;
-  transition: 500ms all ease-in-out;
 }
 .modal__content--timeout {
   max-width: 700px;
@@ -306,16 +275,6 @@ body {
     font-size: 20px;
     font-weight: bolder;
   }
-  .modal__content {
-    max-width: 80%;
-    background-color: white;
-    padding: 20px;
-    border-radius: 30px;
-    animation-name: modalIntro;
-    animation-duration: 1000ms;
-    animation-iteration-count: 1;
-    transition: 500ms all ease-in-out;
-  }
   .modal__content--share {
     max-width: 80%;
     background-color: white;
@@ -325,29 +284,6 @@ body {
     animation-duration: 1000ms;
     animation-iteration-count: 1;
     transition: 500ms all ease-in-out;
-  }
-  .info__desc {
-    color: rgb(39, 38, 38);
-    font-size: 16px;
-  }
-  .info__heading {
-    color: rgb(40, 38, 38);
-    font-size: x-large;
-    margin-bottom: 12px;
-  }
-  .modal__overlay {
-    position: absolute;
-    background-color: rgba(0, 0, 0, 0.526);
-    width: 100vw;
-    height: 100%;
-    top: 0;
-    z-index: 4;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow-y: scroll;
-    padding-top: 150px;
-    padding-bottom: 50px;
   }
   .modal__content--success {
     min-width: 300px;

@@ -218,15 +218,9 @@
 
 
 // Modal function
-const modalOverlay = document.querySelector('.modal__overlay');
-const btnAccept = document.querySelector('.btn__accept');
 const shareOverlay = document.querySelector('.modal__overlay--share');
 const shareBtn = document.querySelector('#shareBtn');
 
-btnAccept.addEventListener('click', (e) => {
-  e.preventDefault();
-  modalOverlay.classList.add('hide');
-})
 
 // Whatsapp share modal ---->
 shareBtn.addEventListener('click', (e) => {
