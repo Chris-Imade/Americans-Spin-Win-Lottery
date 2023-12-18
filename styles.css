@@ -354,5 +354,6 @@ body {
     flex-direction: column;
     align-items: center;
     position: relative;
+    text-align: center;
   }
 }
