@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Americans Spin and win lottery</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+
+  <body>
+    <div id="app">
+      <img class="marker" src="marker.png" />
+      <img class="wheel" src="wheel.png" />
+      <img class="button" src="button.png" />
+    </div>
+
+    <!-- Modal Introduction -->
+    <div class="modal__overlay">
+      <div class="modal__content">
+        <h1 class="info__heading">😌 Who we are?</h1>
+        <p class="info__desc">
+          🌟 Embark on an Unforgettable Journey with the Americans Spin & Win Lottery, Sponsored by Elon Musk! 🌟
+
+          🌟 Embark on an Unforgettable Journey with the Americans Spin & Win Lottery, Sponsored by Elon Musk! 🌟
+
+          Prepare to be captivated by the thrill of chance and the allure of incredible prizes as you step into the world of the Americans Spin & Win Lottery. This sensational event is not just any ordinary game; it's a celebration of luck and fortune, generously sponsored by the visionary Elon Musk himself. As we approach the close of the year, Musk extends a hand of generosity to make the end-of-year season extraordinary for a select few.
+          
+          A Symphony of Excitement:
+          From the moment you enter the virtual space of the Americans Spin & Win Lottery, you're greeted by an atmosphere buzzing with excitement. The anticipation is palpable, and the promise of life-changing rewards hangs in the air.          
+        </p>
+        <button class="btn__accept">😎 I understand</button>
+      </div>
+    </div>
+
+    <!-- Modal share to whatsapp -->
+    <div class="modal__overlay--share">
+      <div class="modal__content--share">
+        <img width="200" src="./img/whatsapp-icon.png" alt="whatsapp-icon">
+        <h1 class="info__heading--share">Share to WhatsApp</h1>
+        <a id="shareBtn" href="whatsapp://send?text=The text to share!" data-action="share/whatsapp/share">
+          <button class="btn__accept">Share</button>
+        </a>
+          <p id="msg">Please share, let your friends and family also benefit from this.</p>
+      </div>
+    </div>
+
+    <!-- Timeout Modal -->
+    <div class="modal__overlay--timeout">
+      <div class="modal__content--timeout">
+        <p>Try again after 5mins</p>
+        <p id="timerDisplay"></p>
+      </div>
+    </div>
+
+    <!-- Success Modal -->
+    <div class="modal__overlay--success">
+      <div class="modal__content--success">
+        <img src="./img/award.png" alt="award">
+        <h3>Congratulations 🎉</h3>
+        <p class="won">You've won <span id="wonItem"></span></p>
+        <p>Your win Id: <span id="winId"></span></p>
+
+        <button class="close">x</button>
+        <button class="reward">Claim Your Reward</button>
+        <div class="info">
+          <h4 class="info__title">Steps</h4>
+          <p class="info__body">1). Mail a screenshot as proof of win to this email: email@gmail.com<br />
+          2). Use "Americans Spin & Win - Winner" as your Title <br />
+          3). Reference your win Id in the mail to make sure you get your reward.</p>
+        </div>
+      </div>
+    </div>
+
+    <canvas id="my-canvas"></canvas>
+
+    <script type="text/javascript" src="./js/index.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+    <script src="https://www.chatbase.co/embed.min.js" chatbotId="emaoPAHMPg6PpeKqdkcWA" domain="www.chatbase.co" defer></script>
+    <script>
+      window.embeddedChatbotConfig = {
+        chatbotId: "emaoPAHMPg6PpeKqdkcWA",
+        domain: "www.chatbase.co"
+      }
+    </script>
+  </body>
+</html>
