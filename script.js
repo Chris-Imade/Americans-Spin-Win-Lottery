@@ -218,13 +218,13 @@
 
 
 // Modal function
-const shareOverlay = document.querySelector('.modal__overlay--share');
-const shareBtn = document.querySelector('#shareBtn');
+// const shareOverlay = document.querySelector('.modal__overlay--share');
+// const shareBtn = document.querySelector('#shareBtn');
 
 
 // Whatsapp share modal ---->
-shareBtn.addEventListener('click', (e) => {
-  setTimeout(() => {
-    shareOverlay.classList.add('hide');
-  }, 5000);
-});
+// shareBtn.addEventListener('click', (e) => {
+//   setTimeout(() => {
+//     shareOverlay.classList.add('hide');
+//   }, 5000);
+// });
